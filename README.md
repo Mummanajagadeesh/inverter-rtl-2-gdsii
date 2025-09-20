@@ -2,9 +2,11 @@
 
 
 <p align="center">
-  <img src="yosys-reports/inverter_rtl.png" alt="Yosys RTL Diagram" width="600"/><br/>
-  <em>Figure 1: RTL schematic generated from Yosys (inverter)</em>
+  <img src="yosys-reports/inverter_rtl.png" alt="Yosys RTL Diagram" width="400"/>
+  <img src="yosys-reports/inverter_gatelevel.png" alt="Yosys Gate-Level Diagram" width="400"/><br/>
+  <em>Figure 1: RTL schematic (left) and Gate-level schematic after tech mapping (right)</em>
 </p>
+
 
 <p align="center">
   <img src="kalyout_floorplan_inverter.png" alt="Floorplan Layout" width="600"/><br/>
@@ -48,27 +50,31 @@ jagadeesh97@LAPTOP-BJUEJNDK:~/OpenLane/designs/inverter$ tree -L 3
 ├── kalyout_signoff_inverter.png
 ├── kalyout_signoff_inverter_z.png
 ├── runs
-│   └── myrun
-│       ├── OPENLANE_COMMIT
-│       ├── PDK_SOURCES
-│       ├── cmds.log
-│       ├── config.tcl
-│       ├── logs
-│       ├── openlane.log
-│       ├── reports
-│       ├── results
-│       ├── runtime.yaml
-│       ├── tmp
-│       └── warnings.log
+│   └── myrun
+│       ├── OPENLANE_COMMIT
+│       ├── PDK_SOURCES
+│       ├── cmds.log
+│       ├── config.tcl
+│       ├── logs
+│       ├── openlane.log
+│       ├── reports
+│       ├── results
+│       ├── runtime.yaml
+│       ├── tmp
+│       └── warnings.log
 ├── sim
-│   ├── inverter_sim
-│   └── inverter_tb.v
+│   ├── inverter_sim
+│   └── inverter_tb.v
 ├── src
-│   └── inverter.v
+│   └── inverter.v
 ├── synth.ys
 └── yosys-reports
     ├── inverter_flat_netlist.dot
     ├── inverter_flat_netlist.png
+    ├── inverter_gatelevel.dot
+    ├── inverter_gatelevel.json
+    ├── inverter_gatelevel.png
+    ├── inverter_gatelevel.v
     ├── inverter_hierarchy.dot
     ├── inverter_hierarchy.png
     ├── inverter_mapped.json
@@ -81,9 +87,10 @@ jagadeesh97@LAPTOP-BJUEJNDK:~/OpenLane/designs/inverter$ tree -L 3
     ├── inverter_synth.v
     ├── inverter_synth_clean.json
     ├── inverter_synth_clean.v
-    └── module_inverter.dot
+    ├── module_inverter.dot
+    └── module_inverter.png
 
-9 directories, 33 files
+9 directories, 38 files
 ```
 
 ---

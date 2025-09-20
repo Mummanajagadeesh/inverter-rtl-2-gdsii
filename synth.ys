@@ -75,13 +75,25 @@ show -format dot -prefix yosys-reports/module_inverter
 # dot -Tpng yosys-reports/module_inverter.dot -o yosys-reports/module_inverter.png
 
 # -------------------------------
-# 9. ABC / Rough Timing Analysis
+# 9. ABC / Rough Timing Analysis (Gate-level Mapping)
 # -------------------------------
-# Adjust Liberty path for SkyWater 130nm or other libraries
-abc -liberty /usr/share/yosys/techlibs/sky130_fd_sc_hd/sky130_fd_sc_hd__tt_025C_1v80.lib
+# Map to Sky130 standard cells (typical corner)
+abc -liberty /home/jagadeesh97/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+clean
+
+# Save gate-level mapped netlists
+write_verilog yosys-reports/inverter_gatelevel.v
+write_json yosys-reports/inverter_gatelevel.json
+
+# Generate gate-level schematic
+show -format dot -stretch -prefix yosys-reports/inverter_gatelevel
+# Convert to PNG separately using Graphviz:
+# dot -Tpng yosys-reports/inverter_gatelevel.dot -o yosys-reports/inverter_gatelevel.png
+
+# Report stats after mapping
 stat > yosys-reports/inverter_abc_stat.txt
 
 # -------------------------------
 # 10. Done
 # -------------------------------
-echo "All Yosys reports saved in yosys-reports/"
+log "All Yosys reports saved in yosys-reports/"

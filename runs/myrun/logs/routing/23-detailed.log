@@ -90,7 +90,7 @@ Number of nets:           4
 #macroValidViaAp       = 0
 #macroNoAp             = 0
 [INFO DRT-0166] Complete pin access.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 118.14 (MB), peak = 119.06 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 118.08 (MB), peak = 119.02 (MB)
 
 Number of guides:     21
 
@@ -144,33 +144,33 @@ Number of guides:     21
 [INFO DRT-0184] Done with 10 vertical wires in 1 frboxes and 6 horizontal wires in 1 frboxes.
 [INFO DRT-0186] Done with 0 vertical wires in 1 frboxes and 0 horizontal wires in 1 frboxes.
 [INFO DRT-0182] Complete track assignment.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 121.04 (MB), peak = 128.69 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 119.92 (MB), peak = 127.14 (MB)
 [INFO DRT-0187] Start routing data preparation.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 121.04 (MB), peak = 128.69 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 120.04 (MB), peak = 127.14 (MB)
 [INFO DRT-0194] Start detail routing.
 [INFO DRT-0195] Start 0th optimization iteration.
     Completing 10% with 0 violations.
-    elapsed time = 00:00:00, memory = 143.88 (MB).
+    elapsed time = 00:00:00, memory = 145.06 (MB).
     Completing 20% with 0 violations.
-    elapsed time = 00:00:00, memory = 158.13 (MB).
+    elapsed time = 00:00:00, memory = 158.03 (MB).
     Completing 30% with 0 violations.
-    elapsed time = 00:00:00, memory = 146.99 (MB).
+    elapsed time = 00:00:00, memory = 146.86 (MB).
     Completing 40% with 0 violations.
-    elapsed time = 00:00:00, memory = 164.01 (MB).
+    elapsed time = 00:00:00, memory = 163.91 (MB).
     Completing 50% with 0 violations.
-    elapsed time = 00:00:00, memory = 164.02 (MB).
+    elapsed time = 00:00:00, memory = 163.91 (MB).
     Completing 60% with 0 violations.
-    elapsed time = 00:00:00, memory = 155.55 (MB).
+    elapsed time = 00:00:00, memory = 155.33 (MB).
     Completing 70% with 0 violations.
-    elapsed time = 00:00:00, memory = 165.14 (MB).
+    elapsed time = 00:00:00, memory = 165.06 (MB).
     Completing 80% with 0 violations.
-    elapsed time = 00:00:00, memory = 153.92 (MB).
+    elapsed time = 00:00:00, memory = 153.81 (MB).
     Completing 90% with 0 violations.
-    elapsed time = 00:00:00, memory = 166.34 (MB).
+    elapsed time = 00:00:00, memory = 166.25 (MB).
     Completing 100% with 0 violations.
-    elapsed time = 00:00:00, memory = 143.08 (MB).
+    elapsed time = 00:00:00, memory = 142.97 (MB).
 [INFO DRT-0199]   Number of violations = 0.
-[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:00, memory = 142.84 (MB), peak = 481.82 (MB)
+[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:01, memory = 142.88 (MB), peak = 481.91 (MB)
 Total wire length = 384 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 193 um.
@@ -214,7 +214,7 @@ Up-via summary (total 12):.
                    12
 
 
-[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:00, memory = 142.84 (MB), peak = 481.82 (MB)
+[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:01, memory = 142.88 (MB), peak = 481.91 (MB)
 
 [INFO DRT-0180] Post processing.
 Setting global connections for newly added cells…

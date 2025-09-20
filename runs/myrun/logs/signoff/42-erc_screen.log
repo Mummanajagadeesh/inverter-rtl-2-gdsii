@@ -2,7 +2,7 @@ CVC: Circuit Validation Check  Version 1.1.4
 CVC: Log output to /openlane/designs/inverter/runs/myrun/reports/signoff/inverter.rpt
 CVC: Error output to /openlane/designs/inverter/runs/myrun/reports/signoff/inverter.rpt.error.gz
 CVC: Debug output to /openlane/designs/inverter/runs/myrun/reports/signoff/inverter.rpt.debug.gz
-CVC: Start: Sat Sep 20 11:39:06 2025
+CVC: Start: Sat Sep 20 18:04:33 2025
 
 Using the following parameters for CVC (Circuit Validation Check) from /home/jagadeesh97/.ciel/sky130A/libs.tech/openlane/cvc/cvcrc
 CVC_TOP = 'inverter'
@@ -48,7 +48,7 @@ CVC: Reading power settings...
 CVC: Parsing netlist /openlane/designs/inverter/runs/myrun/tmp/signoff/inverter.cdl
 
 Cdl fixed data size 68569
-Usage CDL: Time: 0  Memory: 8032  I/O: 4328  Swap: 0
+Usage CDL: Time: 0  Memory: 8292  I/O: 8  Swap: 0
 CVC: Counting and linking...
 Fatal error:could not find subcircuit: XFILLER_0_27_93(sky130_ef_sc_hd__decap_12) in inverter
 
