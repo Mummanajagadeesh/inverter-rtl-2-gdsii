@@ -1,0 +1,52 @@
+(DELAYFILE
+ (SDFVERSION "3.0")
+ (DESIGN "inverter")
+ (DATE "Sat Sep 20 11:38:46 2025")
+ (VENDOR "Parallax")
+ (PROGRAM "STA")
+ (VERSION "2.4.0")
+ (DIVIDER .)
+ (VOLTAGE 1.800::1.800)
+ (PROCESS "1.000::1.000")
+ (TEMPERATURE 25.000::25.000)
+ (TIMESCALE 1ns)
+ (CELL
+  (CELLTYPE "inverter")
+  (INSTANCE)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT in input1.A (0.016:0.016:0.016) (0.007:0.007:0.007))
+    (INTERCONNECT _0_.Y output2.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT input1.X _0_.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT output2.X out (0.001:0.001:0.001) (0.001:0.001:0.001))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__inv_2")
+  (INSTANCE _0_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.101:0.101:0.101) (0.073:0.073:0.073))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_2")
+  (INSTANCE input1)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.147:0.147:0.147) (0.133:0.133:0.133))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_4")
+  (INSTANCE output2)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.206:0.206:0.206) (0.191:0.191:0.191))
+   )
+  )
+ )
+)

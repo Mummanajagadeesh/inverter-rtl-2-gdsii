@@ -1,0 +1,38 @@
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= Typical Corner ===================================
+
+Startpoint: in (input port clocked by clk)
+Endpoint: out (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 ^ input external delay
+                  0.10    0.06    2.06 ^ in (in)
+     1    0.02                           in (net)
+                  0.10    0.00    2.06 ^ _0_/A (sky130_fd_sc_hd__inv_2)
+                  0.11    0.11    2.18 v _0_/Y (sky130_fd_sc_hd__inv_2)
+     1    0.05                           out (net)
+                  0.11    0.01    2.18 v out (out)
+                                  2.18   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.25    0.25   clock uncertainty
+                          0.00    0.25   clock reconvergence pessimism
+                         -2.00   -1.75   output external delay
+                                 -1.75   data required time
+-----------------------------------------------------------------------------
+                                 -1.75   data required time
+                                 -2.18   data arrival time
+-----------------------------------------------------------------------------
+                                  3.93   slack (MET)
+
+
+

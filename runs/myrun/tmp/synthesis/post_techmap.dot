@@ -1,0 +1,10 @@
+digraph "inverter" {
+label="inverter";
+rankdir="LR";
+remincross=true;
+n1 [ shape=octagon, label="in", color="black", fontcolor="black" ];
+n2 [ shape=octagon, label="out", color="black", fontcolor="black" ];
+c5 [ shape=record, label="{{<p3> A}|$81\n$_NOT_|{<p4> Y}}",  ];
+n1:e -> c5:p3:w [color="black", fontcolor="black", label=""];
+c5:p4:e -> n2:w [color="black", fontcolor="black", label=""];
+}

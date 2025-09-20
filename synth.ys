@@ -1,0 +1,87 @@
+# ===============================
+# Yosys Synthesis Script - Full Maximal Reports
+# ===============================
+
+# -------------------------------
+# 0. Create folder if needed
+# -------------------------------
+# Run in bash before Yosys if needed:
+# mkdir -p yosys-reports
+
+# -------------------------------
+# 1. Read Design
+# -------------------------------
+read_verilog src/*.v
+hierarchy -check
+# Set top module
+synth -top inverter
+
+# -------------------------------
+# 2. Optimization and Checks
+# -------------------------------
+proc; opt; fsm; opt; memory; opt
+check > yosys-reports/inverter_check.txt
+stat > yosys-reports/inverter_stat.txt
+
+# -------------------------------
+# 3. Save Netlists
+# -------------------------------
+write_verilog yosys-reports/inverter_synth.v
+write_json yosys-reports/inverter_synth.json
+write_edif yosys-reports/inverter_synth.edf
+write_blif yosys-reports/inverter_synth.blif
+write_verilog yosys-reports/inverter_synth_clean.v
+write_json yosys-reports/inverter_synth_clean.json
+
+# -------------------------------
+# 4. RTL Diagram
+# -------------------------------
+show -format dot -prefix yosys-reports/inverter_rtl
+# Convert to PNG separately using Graphviz:
+# dot -Tpng yosys-reports/inverter_rtl.dot -o yosys-reports/inverter_rtl.png
+
+# -------------------------------
+# 5. Hierarchy Diagram
+# -------------------------------
+hierarchy -top inverter
+show -format dot -prefix yosys-reports/inverter_hierarchy
+# Convert to PNG using Graphviz:
+# dot -Tpng yosys-reports/inverter_hierarchy.dot -o yosys-reports/inverter_hierarchy.png
+
+# -------------------------------
+# 6. Flat Netlist
+# -------------------------------
+flatten
+show -format dot -prefix yosys-reports/inverter_flat_netlist
+# Convert to PNG:
+# dot -Tpng yosys-reports/inverter_flat_netlist.dot -o yosys-reports/inverter_flat_netlist.png
+
+# -------------------------------
+# 7. Technology Mapping
+# -------------------------------
+techmap; opt
+stat -tech xilinx > yosys-reports/inverter_techmap_stat.txt
+
+# Save mapped netlists
+write_verilog yosys-reports/inverter_mapped.v
+write_json yosys-reports/inverter_mapped.json
+
+# -------------------------------
+# 8. Module Graph (single module)
+# -------------------------------
+# Simply show the current design (top module)
+show -format dot -prefix yosys-reports/module_inverter
+# Convert to PNG separately using Graphviz:
+# dot -Tpng yosys-reports/module_inverter.dot -o yosys-reports/module_inverter.png
+
+# -------------------------------
+# 9. ABC / Rough Timing Analysis
+# -------------------------------
+# Adjust Liberty path for SkyWater 130nm or other libraries
+abc -liberty /usr/share/yosys/techlibs/sky130_fd_sc_hd/sky130_fd_sc_hd__tt_025C_1v80.lib
+stat > yosys-reports/inverter_abc_stat.txt
+
+# -------------------------------
+# 10. Done
+# -------------------------------
+echo "All Yosys reports saved in yosys-reports/"
