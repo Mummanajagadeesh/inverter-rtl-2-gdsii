@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="inv__2.png" alt="Magic layout view of the SKY130 standard cell inverter (inv_2) used in synthesized designs" width="600"/><br/>
+  <img src="inv__2.png" alt="Magic layout view of the SKY130 standard cell inverter (inv_2) used in synthesized designs" width="200"/><br/>
   <em>Figure 0: Magic layout view of the SKY130 standard cell inverter (inv_2) used in synthesized designs
 </em>
 </p>
