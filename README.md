@@ -2,6 +2,12 @@
 
 
 <p align="center">
+  <img src="inv__2.png" alt="Magic layout view of the SKY130 standard cell inverter (inv_2) used in synthesized designs" width="600"/><br/>
+  <em>Figure 0: Magic layout view of the SKY130 standard cell inverter (inv_2) used in synthesized designs
+</em>
+</p>
+
+<p align="center">
   <img src="yosys-reports/inverter_rtl.png" alt="Yosys RTL Diagram" width="400"/>
   <img src="yosys-reports/inverter_gatelevel.png" alt="Yosys Gate-Level Diagram" width="400"/><br/>
   <em>Figure 1: RTL schematic (left) and Gate-level schematic after tech mapping (right)</em>
@@ -9,19 +15,20 @@
 
 
 <p align="center">
-  <img src="kalyout_floorplan_inverter.png" alt="Floorplan Layout" width="600"/><br/>
+  <img src="klayout_floorplan.png" alt="Floorplan Layout" width="600"/><br/>
   <em>Figure 2: Floorplan of inverter after OpenLane flow</em>
 </p>
 
 <p align="center">
-  <img src="kalyout_placement_inverter.png" alt="Placement Layout" width="400"/>
-  <img src="kalyout_routing_inverter.png" alt="Routing Layout" width="400"/><br/>
+  <img src="klayout_placement.png" alt="Placement Layout" width="400"/>
+  <img src="klayout_routing.png" alt="Routing Layout" width="400"/><br/>
   <em>Figure 3: Placement (left) and Routing (right) stages of physical design</em>
 </p>
 
 <p align="center">
-  <img src="kalyout_signoff_inverter_z.png" alt="Signoff Zoomed View" width="400"/>
-  <img src="kalyout_signoff_inverter.png" alt="Final Signoff Layout" width="400"/><br/>
+  <img src="klayout_signoff_gds_z.png" alt="Signoff Zoomed View" width="200"/>
+  <img src="klayout_signoff_gds.png" alt="Final Signoff Layout" width="200"/>
+  <img src="klayout_signoff_kl_gds_wo_.png" alt="Final Signoff Layout" width="200"/><br/>
   <em>Figure 4: Final signoff view of inverter layout (zoomed detail on left)</em>
 </p>
 
@@ -44,11 +51,11 @@ jagadeesh97@LAPTOP-BJUEJNDK:~/OpenLane/designs/inverter$ tree -L 3
 .
 ├── config.json
 ├── config.tcl
-├── kalyout_floorplan_inverter.png
-├── kalyout_placement_inverter.png
-├── kalyout_routing_inverter.png
-├── kalyout_signoff_inverter.png
-├── kalyout_signoff_inverter_z.png
+├── klayout_floorplan_inverter.png
+├── klayout_placement_inverter.png
+├── klayout_routing_inverter.png
+├── klayout_signoff_inverter.png
+├── klayout_signoff_inverter_z.png
 ├── runs
 │   └── myrun
 │       ├── OPENLANE_COMMIT
@@ -253,10 +260,10 @@ Check DRC and LVS with Magic and Netgen.
 
 Representative layout images are included:
 
-* Floorplan: `kalyout_floorplan_inverter.png`
-* Placement: `kalyout_placement_inverter.png`
-* Routing: `kalyout_routing_inverter.png`
-* Final signoff: `kalyout_signoff_inverter.png`
+* Floorplan: `klayout_floorplan_inverter.png`
+* Placement: `klayout_placement_inverter.png`
+* Routing: `klayout_routing_inverter.png`
+* Final signoff: `klayout_signoff_inverter.png`
 
 ---
 
