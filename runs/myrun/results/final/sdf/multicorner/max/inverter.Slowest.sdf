@@ -1,7 +1,7 @@
 (DELAYFILE
  (SDFVERSION "3.0")
  (DESIGN "inverter")
- (DATE "Sat Sep 20 18:04:19 2025")
+ (DATE "Sun Sep 21 05:49:40 2025")
  (VENDOR "Parallax")
  (PROGRAM "STA")
  (VERSION "2.4.0")
@@ -15,9 +15,9 @@
   (INSTANCE)
   (DELAY
    (ABSOLUTE
-    (INTERCONNECT in input1.A (0.021:0.021:0.021) (0.012:0.012:0.012))
-    (INTERCONNECT _0_.Y output2.A (0.003:0.003:0.003) (0.003:0.003:0.003))
-    (INTERCONNECT input1.X _0_.A (0.004:0.004:0.004) (0.003:0.003:0.003))
+    (INTERCONNECT in input1.A (0.019:0.019:0.019) (0.011:0.011:0.011))
+    (INTERCONNECT _0_.Y output2.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input1.X _0_.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT output2.X out (0.002:0.002:0.002) (0.002:0.002:0.002))
    )
   )
@@ -27,16 +27,16 @@
   (INSTANCE _0_)
   (DELAY
    (ABSOLUTE
-    (IOPATH A Y (0.227:0.227:0.227) (0.189:0.189:0.189))
+    (IOPATH A Y (0.086:0.086:0.086) (0.089:0.089:0.089))
    )
   )
  )
  (CELL
-  (CELLTYPE "sky130_fd_sc_hd__clkbuf_2")
+  (CELLTYPE "sky130_fd_sc_hd__buf_1")
   (INSTANCE input1)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.278:0.278:0.278) (0.260:0.260:0.260))
+    (IOPATH A X (0.206:0.206:0.206) (0.182:0.182:0.182))
    )
   )
  )
@@ -45,7 +45,7 @@
   (INSTANCE output2)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.386:0.386:0.386) (0.350:0.350:0.350))
+    (IOPATH A X (0.320:0.320:0.320) (0.313:0.313:0.313))
    )
   )
  )

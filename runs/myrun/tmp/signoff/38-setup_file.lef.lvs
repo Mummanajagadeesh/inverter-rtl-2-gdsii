@@ -1,0 +1,1 @@
+lvs {/openlane/designs/inverter/runs/myrun/results/signoff/inverter.spice inverter} {/openlane/designs/inverter/runs/myrun/tmp/signoff/35-inverter.pnl.v inverter} /home/jagadeesh97/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/inverter/runs/myrun/logs/signoff/38-inverter.lef.lvs.log -json

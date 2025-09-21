@@ -2,13 +2,13 @@ CVC: Log output to /openlane/designs/inverter/runs/myrun/reports/signoff/inverte
 CVC: Error output to /openlane/designs/inverter/runs/myrun/reports/signoff/inverter.rpt.error.gz
 CVC: Debug output to /openlane/designs/inverter/runs/myrun/reports/signoff/inverter.rpt.debug.gz
 CVC: Circuit Validation Check  Version 1.1.4
-CVC: Start: Sat Sep 20 18:04:33 2025
+CVC: Start: Sun Sep 21 05:49:59 2025
 
-Using the following parameters for CVC (Circuit Validation Check) from /home/jagadeesh97/.ciel/sky130A/libs.tech/openlane/cvc/cvcrc
+Using the following parameters for CVC (Circuit Validation Check) from /home/jagadeesh97/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/cvc/cvcrc
 CVC_TOP = 'inverter'
 CVC_NETLIST = '/openlane/designs/inverter/runs/myrun/tmp/signoff/inverter.cdl'
 CVC_MODE = 'inverter'
-CVC_MODEL_FILE = '/home/jagadeesh97/.ciel/sky130A/libs.tech/openlane/cvc/models'
+CVC_MODEL_FILE = '/home/jagadeesh97/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/cvc/models'
 CVC_POWER_FILE = '/openlane/designs/inverter/runs/myrun/tmp/signoff/inverter.power'
 CVC_FUSE_FILE = ''
 CVC_REPORT_FILE = '/openlane/designs/inverter/runs/myrun/reports/signoff/inverter.rpt'
@@ -46,6 +46,6 @@ End of parameters
 CVC: Reading device model settings...
 CVC: Reading power settings...
 CVC: Parsing netlist /openlane/designs/inverter/runs/myrun/tmp/signoff/inverter.cdl
-Cdl fixed data size 68569
-Usage CDL: Time: 0  Memory: 8292  I/O: 8  Swap: 0
+Cdl fixed data size 17699
+Usage CDL: Time: 0  Memory: 6592  I/O: 4328  Swap: 0
 CVC: Counting and linking...

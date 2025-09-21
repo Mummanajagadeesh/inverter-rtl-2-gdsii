@@ -1,0 +1,21 @@
+OpenROAD 41a51eaf4ca2171c92ff38afb91eb37bbd3f36da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/inverter/runs/myrun/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 14 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/inverter/runs/myrun/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/inverter/runs/myrun/results/routing/inverter.def
+[INFO ODB-0128] Design: inverter
+[INFO ODB-0130]     Created 4 pins.
+[INFO ODB-0131]     Created 108 components and 424 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 418 connections.
+[INFO ODB-0133]     Created 4 nets and 6 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/inverter/runs/myrun/results/routing/inverter.def
+Top-level design name: inverter
+Found default power net 'VPWR'
+Found default ground net 'VGND'
+Found 1 power ports.
+Found 1 ground ports.
+Modified power connections of 108/108 cells.

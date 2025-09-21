@@ -6,25 +6,13 @@ MACRO inverter
   CLASS BLOCK ;
   FOREIGN inverter ;
   ORIGIN 0.000 0.000 ;
-  SIZE 200.000 BY 200.000 ;
+  SIZE 34.500 BY 57.120 ;
   PIN VGND
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 24.340 10.640 25.940 187.920 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 177.940 10.640 179.540 187.920 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 5.280 30.030 194.360 31.630 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 5.280 183.210 194.360 184.810 ;
+        RECT 13.020 10.640 14.620 46.480 ;
     END
   END VGND
   PIN VPWR
@@ -32,28 +20,16 @@ MACRO inverter
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 21.040 10.640 22.640 187.920 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 174.640 10.640 176.240 187.920 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 5.280 26.730 194.360 28.330 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 5.280 179.910 194.360 181.510 ;
+        RECT 9.720 10.640 11.320 46.480 ;
     END
   END VPWR
   PIN in
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.213000 ;
+    ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 196.510 196.000 196.790 200.000 ;
+        RECT 32.290 53.120 32.570 57.120 ;
     END
   END in
   PIN out
@@ -67,15 +43,15 @@ MACRO inverter
   END out
   OBS
       LAYER li1 ;
-        RECT 5.520 10.795 194.120 187.765 ;
+        RECT 5.520 10.795 28.980 46.325 ;
       LAYER met1 ;
-        RECT 0.070 10.640 196.810 187.920 ;
+        RECT 0.070 10.640 32.590 46.480 ;
       LAYER met2 ;
-        RECT 0.100 195.720 196.230 196.000 ;
-        RECT 0.100 4.280 196.780 195.720 ;
-        RECT 0.650 4.000 196.780 4.280 ;
+        RECT 0.100 52.840 32.010 53.120 ;
+        RECT 0.100 4.280 32.560 52.840 ;
+        RECT 0.650 4.000 32.560 4.280 ;
       LAYER met3 ;
-        RECT 21.050 10.715 179.530 187.845 ;
+        RECT 9.730 10.715 14.610 46.405 ;
   END
 END inverter
 END LIBRARY

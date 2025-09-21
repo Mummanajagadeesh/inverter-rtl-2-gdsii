@@ -33,7 +33,7 @@ library (inverter) {
   cell ("inverter") {
     pin("in") {
       direction : input;
-      capacitance : 0.0036;
+      capacitance : 0.0033;
     }
     pin("out") {
       direction : output;
@@ -43,16 +43,16 @@ library (inverter) {
         timing_sense : negative_unate;
         timing_type : combinational;
 	cell_rise(template_1) {
-          values("0.70917,0.71822,0.74343,0.80981,1.01046,1.71792,4.27205");
+          values("0.45265,0.46166,0.48676,0.55321,0.75387,1.46275,4.01576");
 	}
 	rise_transition(template_1) {
-          values("0.03931,0.04589,0.06705,0.13829,0.40703,1.40308,4.99712");
+          values("0.03926,0.04593,0.06727,0.13811,0.40681,1.40715,4.99688");
 	}
 	cell_fall(template_1) {
-          values("0.68945,0.69706,0.71929,0.77532,0.93169,1.46769,3.39441");
+          values("0.50043,0.50827,0.53044,0.58665,0.74218,1.27845,3.20541");
 	}
 	fall_transition(template_1) {
-          values("0.03438,0.03976,0.05694,0.10973,0.30109,1.02098,3.64248");
+          values("0.03435,0.03976,0.05684,0.10954,0.30111,1.02073,3.64203");
 	}
       }
     }

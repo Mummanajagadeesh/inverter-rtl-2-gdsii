@@ -8,12 +8,12 @@ Total Magic DRC violations is 0
 ----------------------------------------
 
 LVS Summary:
-Source: /openlane/designs/inverter/runs/myrun/logs/signoff/39-inverter.lef.lvs.log
+Source: /openlane/designs/inverter/runs/myrun/logs/signoff/38-inverter.lef.lvs.log
 Number of nets: 6                          |Number of nets: 6                          
 Design is LVS clean.
 ----------------------------------------
 
 Antenna Summary:
-Source: /openlane/designs/inverter/runs/myrun/logs/signoff/41-arc.log
+Source: /openlane/designs/inverter/runs/myrun/logs/signoff/40-arc.log
 Pin violations: 0
 Net violations: 0

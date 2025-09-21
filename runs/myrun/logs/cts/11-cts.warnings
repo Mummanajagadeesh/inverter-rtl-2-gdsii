@@ -1,0 +1,4 @@
+[WARNING CTS-0043] 4896 wires are pure wire and no slew degradation.
+[WARNING CTS-0083] No clock nets have been found.
+[WARNING CTS-0082] No valid clock nets in the design.
+[WARNING STA-0357] virtual clock clk can not be propagated.
