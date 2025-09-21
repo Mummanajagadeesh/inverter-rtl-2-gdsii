@@ -1,0 +1,24 @@
+Final reports at: runs\myrun\reports
+
+File Name                                         report_tns               report_wns               report_worst_slack -max  report_worst_slack -min  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+synthesis\2-syn_sta.summary.rpt                   0.00                     0.00                     5.61                     3.84                     
+cts\12-cts_sta.summary.rpt                        0.00                     0.00                     5.40                     4.05                     
+cts\13-cts_sta.summary.rpt                        0.00                     0.00                     5.30                     4.14                     
+placement\10-dpl_sta.summary.rpt                  0.00                     0.00                     5.40                     4.05                     
+placement\11-dpl_sta.summary.rpt                  0.00                     0.00                     5.30                     4.14                     
+placement\8-gpl_sta.summary.rpt                   0.00                     0.00                     5.52                     3.93                     
+routing\15-rsz_design_sta.summary.rpt             0.00                     0.00                     5.41                     4.05                     
+routing\16-rsz_design_sta.summary.rpt             0.00                     0.00                     5.28                     4.16                     
+routing\17-rsz_timing_sta.summary.rpt             0.00                     0.00                     5.41                     4.05                     
+routing\18-rsz_timing_sta.summary.rpt             0.00                     0.00                     5.28                     4.16                     
+routing\20-grt_sta.summary.rpt                    0.00                     0.00                     5.44                     4.03                     
+routing\21-grt_sta.summary.rpt                    0.00                     0.00                     5.44                     4.02                     
+signoff\25-mca\rcx_min_sta.summary.rpt            0.00                     0.00                     5.10                     3.96                     
+signoff\26-mca\rcx_min_sta.summary.rpt            0.00                     0.00                     4.86                     4.04                     
+signoff\27-mca\rcx_max_sta.summary.rpt            0.00                     0.00                     5.09                     3.96                     
+signoff\28-mca\rcx_max_sta.summary.rpt            0.00                     0.00                     4.81                     4.05                     
+signoff\29-mca\rcx_nom_sta.summary.rpt            0.00                     0.00                     5.10                     3.96                     
+signoff\30-mca\rcx_nom_sta.summary.rpt            0.00                     0.00                     4.83                     4.05                     
+signoff\30-rcx_sta.summary.rpt                    0.00                     0.00                     5.39                     4.06                     
+signoff\31-rcx_sta.summary.rpt                    0.00                     0.00                     5.23                     4.19                     
