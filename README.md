@@ -2,10 +2,20 @@
 
 
 <p align="center">
-  <img src="inv__2.png" alt="Magic layout view of the SKY130 standard cell inverter (inv_2) used in synthesized designs" width="200"/><br/>
-  <em>Figure 0: Magic layout view of the SKY130 standard cell inverter (inv_2) used in synthesized designs
-</em>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="inv__2.png" alt="Magic layout view of the SKY130 standard cell inverter (inv_2) used in synthesized designs" width="200"/><br/>
+        <em>Figure 0: Magic layout view of the SKY130 standard cell inverter (inv_2)</em>
+      </td>
+      <td align="center">
+        <img src="inverter.svg" alt="Generated layout of the inverter from final GDS" width="200"/><br/>
+        <em>Figure 1: Generated from final GDS</em>
+      </td>
+    </tr>
+  </table>
 </p>
+
 
 <p align="center">
   <img src="yosys-reports/inverter_rtl.png" alt="Yosys RTL Diagram" width="400"/>
