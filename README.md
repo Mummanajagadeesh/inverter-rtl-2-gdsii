@@ -19,6 +19,7 @@
 
 <p align="center">
   <img src="yosys-reports/inverter_rtl.png" alt="Yosys RTL Diagram" width="400"/>
+  <img src="inverter_synth.png" alt="Netlist SVG" width="400"/>
   <img src="yosys-reports/inverter_gatelevel.png" alt="Yosys Gate-Level Diagram" width="400"/><br/>
   <em>Figure 1: RTL schematic (left) and Gate-level schematic after tech mapping (right)</em>
 </p>
