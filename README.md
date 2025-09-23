@@ -1,12 +1,15 @@
 # Inverter RTL-to-GDSII Flow using OpenLane and SkyWater 130nm PDK
 
-
 <p align="center">
   <table>
     <tr>
       <td align="center">
         <img src="inv__2.png" alt="Magic layout view of the SKY130 standard cell inverter (inv_2) used in synthesized designs" width="200"/><br/>
         <em>Figure 0: Magic layout view of the SKY130 standard cell inverter (inv_2)</em>
+      </td>
+      <td align="center">
+      <img src="src/inverter_openroad.png"><br>
+        <em>Figure 1: OpenROAD Final Layout</em>
       </td>
       <td align="center">
         <img src="inverter.svg" alt="Generated layout of the inverter from final GDS" width="200"/><br/>
