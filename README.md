@@ -28,7 +28,7 @@
 </p>
 
 
-<p align="center">
+<!-- <p align="center">
   <img src="klayout_floorplan.png" alt="Floorplan Layout" width="600"/><br/>
   <em>Figure 2: Floorplan of inverter after OpenLane flow</em>
 </p>
@@ -37,7 +37,7 @@
   <img src="klayout_placement.png" alt="Placement Layout" width="400"/>
   <img src="klayout_routing.png" alt="Routing Layout" width="400"/><br/>
   <em>Figure 3: Placement (left) and Routing (right) stages of physical design</em>
-</p>
+</p> -->
 
 <p align="center">
   <img src="klayout_signoff_gds_z.png" alt="Signoff Zoomed View" width="200"/>
